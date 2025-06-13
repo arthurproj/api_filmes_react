@@ -1,0 +1,61 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #121212;
+}
+
+#navbar h2 a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#navbar form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+#navbar input {
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  border: none;
+  color: black;
+}
+
+#navbar form button {
+  background-color: #f7d354;
+  border: 2px solid #f7d354;
+  border-radius: 4px;
+  color: #000;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#navbar select {
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  border: 1.5px solid #f7d354;
+  background: linear-gradient(90deg, #fffbe6 0%, #f7d354 100%);
+  color: #111;
+  font-size: 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: border 0.2s, box-shadow 0.2s;
+  appearance: none;
+}
+
+#navbar select:focus {
+  outline: none;
+  border: 2px solid #b8930c;
+  box-shadow: 0 0 0 2px #f7d35455;
+}
+
+#navbar select option {
+  color: #111;
+}
