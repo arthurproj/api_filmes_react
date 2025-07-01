@@ -48,6 +48,3 @@ Exibição de cartazes, títulos, datas e sinopses dos filmes.
 Navegação amigável entre resultados e detalhes de filmes.
 
 Layout responsivo para computadores e dispositivos móveis.
-
-## 📄 Licença
-MIT License – consulte o arquivo LICENSE (se desejar adicionar).
